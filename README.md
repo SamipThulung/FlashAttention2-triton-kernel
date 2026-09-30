@@ -15,7 +15,7 @@ Implemetation of FlashAttention2 in triton, operator fusion and recomputation. A
 
 ### Backward
 <p align="center">
-  <img src="assets/fa2_backward.png" width="30">
+  <img src="assets/fa2_backward.png" width="400">
 </p>
 
 ## Benchmarking
@@ -23,7 +23,7 @@ Implemetation of FlashAttention2 in triton, operator fusion and recomputation. A
 The forward opration triton kernel performs better than pytorch up to d = 128 but performs lower than pytorch when the dimension of the model increases. It is expected as the kernel implementation doesnot have the same matrix-matrix operation opperation. 
 
  <p align="center">
-  <img src="assets/benchmarking.png" width="350">
+  <img src="assets/benchmarking.png" width="600">
 </p>
 
 ## Results
